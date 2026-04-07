@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Sewr",
+    "slug": "Sewr",
+    "scheme": "sewr",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/SEWR.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/SEWR.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.glo.Sewr",
+      "config": {
+        "googleMaps": {
+          "apiKey": "REDACTED"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "bef13895-888d-49af-a627-e4382cf3d383"
+      }
+    },
+    "owner": "seokyinnie"
+  }
+}
