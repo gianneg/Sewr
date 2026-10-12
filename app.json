@@ -20,12 +20,7 @@
         "foregroundImage": "./assets/images/SEWR.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.glo.Sewr",
-      "config": {
-        "googleMaps": {
-          "apiKey": "REDACTED"
-        }
-      }
+      "package": "com.glo.Sewr"
     },
     "web": {
       "favicon": "./assets/favicon.png"

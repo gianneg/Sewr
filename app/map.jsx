@@ -135,7 +135,7 @@ const Map = () => {
             const response = await fetch(
                 `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(
                     query
-                )}&key=REDACTED`
+                )}&key=${process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY}`
             );
             const data = await response.json();
 

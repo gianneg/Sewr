@@ -18,7 +18,7 @@ import axios from "axios";
 import images from "../constants/images"; // Import the images.js file
 
 // Weather API Key and Default Location
-const API_KEY = "REDACTED";
+const API_KEY = process.env.EXPO_PUBLIC_OPENWEATHER_API_KEY;
 const DEFAULT_LOCATION = {
     latitude: 9.3116,
     longitude: 123.3073,
